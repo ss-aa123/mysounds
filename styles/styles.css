@@ -1,0 +1,87 @@
+* {
+    font-family: "Space Grotesk", sans-serif;
+  }
+  
+  body {
+    background-color: #242424;
+    color: #fff;
+  }
+  
+  h1 {
+    width: 100%;
+    padding-top: 1em;
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+  }
+  
+  /* this controls the button */
+  .hide {
+    display: none;
+  }
+  
+  /* p tag */
+  .text {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1em;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  
+  /* entire list of songs */
+  .my-songs {
+    padding: 2em 2em 2em 3em;
+    width: 40%;
+    list-style: none;
+    border-radius: 50px;
+    background: #242424;
+    box-shadow: 28px 28px 56px #1a1a1a, -28px -28px 56px #2e2e2e;
+  }
+  
+  /* individual song */
+  .my-songs .song {
+    padding: 0.5em;
+    margin: 0.75em 0;
+    font-size: 1.25em;
+    width: 100%;
+  }
+  
+  .my-songs .song:hover {
+    color: #b3dec1;
+  }
+  
+  /* song number */
+  .my-songs .song-number {
+    display: inline-block;
+    padding: 0.45em;
+    margin-right: 0.25em;
+    color: #8ac4ff;
+    text-shadow: 2px 2px 5px rgba(138, 197, 255, 0.6);
+  }
+  
+  /* button to show songs */
+  .show-list {
+    margin: 2em 0;
+    width: 50%;
+    padding: 1em;
+    color: #242424;
+    background: #8ac4ff;
+    font-size: 1.25em;
+    align-self: center;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .show-list:hover {
+    background: white;
+  }
